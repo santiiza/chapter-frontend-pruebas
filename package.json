@@ -1,0 +1,8 @@
+{
+  "name": "chapter-frontend-pruebas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rhodwulf64/chapter-frontend-pruebas.git",
+  "author": "rhodwulf64 <rodescobar44@gmail.com>",
+  "license": "MIT"
+}
