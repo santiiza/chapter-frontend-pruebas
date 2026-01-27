@@ -1,0 +1,3682 @@
+{
+  "info": {
+    "_postman_id": "04e765ec-b1e7-44dd-833f-51500c146f6b",
+    "name": "JOANIC-BACKEND",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "32643686",
+    "_collection_link": "https://go.postman.co/collection/32643686-04e765ec-b1e7-44dd-833f-51500c146f6b?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "cjn-mws-core-catalog",
+      "item": [
+        {
+          "name": "ca_tabla",
+          "item": [
+            {
+              "name": "all-tables",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "1234567890-prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "en",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8032/api/v1/tables",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8032",
+                  "path": [
+                    "api",
+                    "v1",
+                    "tables"
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "obtener-tablas",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "http://localhost:8034/api/v1/tables",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8034",
+                      "path": [
+                        "api",
+                        "v1",
+                        "tables"
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Transfer-Encoding",
+                      "value": "chunked"
+                    },
+                    {
+                      "key": "Date",
+                      "value": "Tue, 30 Sep 2025 05:03:17 GMT"
+                    },
+                    {
+                      "key": "Keep-Alive",
+                      "value": "timeout=60"
+                    },
+                    {
+                      "key": "Connection",
+                      "value": "keep-alive"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n    \"dataOut\": [\n        {\n            \"id\": 1,\n            \"name\": \"pa_moneda\",\n            \"description\": \"Monedas\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"pa_estado_general\",\n            \"description\": \"Estados Generales para tablas\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"pa_tipo_contribuyente\",\n            \"description\": \"Tipos de Contribuyentes para empresas\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 4,\n            \"name\": \"pa_tipo_industria\",\n            \"description\": \"Tipos de Industrias para empresas\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 5,\n            \"name\": \"pa_tipo_empresa\",\n            \"description\": \"Tipos de Empresas\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 6,\n            \"name\": \"pa_tipo_bodega\",\n            \"description\": \"Tipos de Bodegas\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 7,\n            \"name\": \"pa_estado_periodo\",\n            \"description\": \"Estado de periodos contables\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 8,\n            \"name\": \"pa_tipo_corte\",\n            \"description\": \"Tipo de cortes contables\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 9,\n            \"name\": \"pa_estado_corte\",\n            \"description\": \"Estado de cortes contables\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 10,\n            \"name\": \"pa_naturaleza_cuenta\",\n            \"description\": \"Naturaleza de cuenta\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 11,\n            \"name\": \"pa_cargo\",\n            \"description\": \"Cargo u ocupación empleados\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 12,\n            \"name\": \"pa_tipo_identificacion\",\n            \"description\": \"Tipos de identificación\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 13,\n            \"name\": \"pa_genero\",\n            \"description\": \"Género\",\n            \"status\": \"V\"\n        }\n    ]\n}"
+                }
+              ]
+            },
+            {
+              "name": "table-Id",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8032/api/v1/tables/2",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8032",
+                  "path": [
+                    "api",
+                    "v1",
+                    "tables",
+                    "2"
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "obtener-tabla-id",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "http://localhost:8034/api/v1/tables/1",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8034",
+                      "path": [
+                        "api",
+                        "v1",
+                        "tables",
+                        "1"
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Transfer-Encoding",
+                      "value": "chunked"
+                    },
+                    {
+                      "key": "Date",
+                      "value": "Tue, 30 Sep 2025 16:27:34 GMT"
+                    },
+                    {
+                      "key": "Keep-Alive",
+                      "value": "timeout=60"
+                    },
+                    {
+                      "key": "Connection",
+                      "value": "keep-alive"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n    \"dataOut\": {\n        \"id\": 1,\n        \"name\": \"pa_moneda\",\n        \"description\": \"Monedas\",\n        \"status\": \"V\"\n    }\n}"
+                }
+              ]
+            },
+            {
+              "name": "table-name:/filters?name",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8032/api/v1/tables/filters?name=pa_estado_general",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8032",
+                  "path": [
+                    "api",
+                    "v1",
+                    "tables",
+                    "filters"
+                  ],
+                  "query": [
+                    {
+                      "key": "name",
+                      "value": "pa_estado_general"
+                    }
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "obtener-tabla-nombre",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "http://localhost:8034/api/v1/tables/filters?name=pa_estado_general",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8034",
+                      "path": [
+                        "api",
+                        "v1",
+                        "tables",
+                        "filters"
+                      ],
+                      "query": [
+                        {
+                          "key": "name",
+                          "value": "pa_estado_general"
+                        }
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Transfer-Encoding",
+                      "value": "chunked"
+                    },
+                    {
+                      "key": "Date",
+                      "value": "Tue, 30 Sep 2025 16:28:14 GMT"
+                    },
+                    {
+                      "key": "Keep-Alive",
+                      "value": "timeout=60"
+                    },
+                    {
+                      "key": "Connection",
+                      "value": "keep-alive"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n    \"dataOut\": {\n        \"id\": 2,\n        \"name\": \"pa_estado_general\",\n        \"description\": \"Estados Generales para tablas\",\n        \"status\": \"V\"\n    }\n}"
+                }
+              ]
+            },
+            {
+              "name": "create",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "1234567890-prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "en",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"dataIn\": {\r\n        \"name\":\"pa_tipo_pago\",\r\n        \"description\": \"Tipo de pago\"\r\n    }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8032/api/v1/tables",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8032",
+                  "path": [
+                    "api",
+                    "v1",
+                    "tables"
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "Post create /api/v1/tables",
+                  "originalRequest": {
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "x-user",
+                        "value": "admuser",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-device",
+                        "value": "postman",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-session",
+                        "value": "1234567890-prueba",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-guid",
+                        "value": "550e8400-e29b-41d4-a716-446655440000",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-app-name",
+                        "value": "joanic",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-device-ip",
+                        "value": "192.168.100.17",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-date",
+                        "value": "2025-10-13T21:09:00Z",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "en",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\r\n    \"dataIn\": {\r\n        \"name\":\"pa_tipo_pago\",\r\n        \"description\": \"Tipo de pago\"\r\n    }\r\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": {
+                      "raw": "http://localhost:8032/api/v1/tables",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8032",
+                      "path": [
+                        "api",
+                        "v1",
+                        "tables"
+                      ]
+                    }
+                  },
+                  "status": "Created",
+                  "code": 201,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "Content-Length",
+                      "value": "73"
+                    }
+                  ],
+                  "cookie": [
+                    {
+                      "expires": "Invalid Date",
+                      "domain": "",
+                      "path": ""
+                    }
+                  ],
+                  "body": "{\n    \"id\": 15,\n    \"name\": \"pa_tipo_pago\",\n    \"description\": \"Tipo de pago\",\n    \"status\": \"V\"\n}"
+                }
+              ]
+            },
+            {
+              "name": "update",
+              "request": {
+                "method": "PATCH",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"dataIn\": {\r\n        \"status\": \"V\"\r\n    }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8034/api/v1/tables/14",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8034",
+                  "path": [
+                    "api",
+                    "v1",
+                    "tables",
+                    "14"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "ca_catalogo",
+          "item": [
+            {
+              "name": "Get catalogById: /api/v1/catalogs/60",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8032/api/v1/catalogs/6",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8032",
+                  "path": [
+                    "api",
+                    "v1",
+                    "catalogs",
+                    "6"
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "obtener-catalogo-tabla",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "http://localhost:8034/api/v1/catalogs/60",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8034",
+                      "path": [
+                        "api",
+                        "v1",
+                        "catalogs",
+                        "60"
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Transfer-Encoding",
+                      "value": "chunked"
+                    },
+                    {
+                      "key": "Date",
+                      "value": "Tue, 30 Sep 2025 16:20:07 GMT"
+                    },
+                    {
+                      "key": "Keep-Alive",
+                      "value": "timeout=60"
+                    },
+                    {
+                      "key": "Connection",
+                      "value": "keep-alive"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n    \"dataOut\": {\n        \"id\": 60,\n        \"code\": \"5\",\n        \"value\": \"EUR\",\n        \"description\": \"MONEDA EURO\",\n        \"auxValue1\": null,\n        \"auxValue2\": null,\n        \"auxValue3\": null,\n        \"state\": \"V\"\n    }\n}"
+                }
+              ]
+            },
+            {
+              "name": "Post create: /api/v1/catalogs",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "1234567890-prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "en",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"dataIn\": {\r\n        \"tableId\": 1,\r\n        \"code\": \"3\",\r\n        \"value\": \"JPY\",\r\n        \"description\": \"MONEDA EURO\"\r\n    }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8032/api/v1/catalogs",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8032",
+                  "path": [
+                    "api",
+                    "v1",
+                    "catalogs"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Patch update: /api/v1/catalogs/64",
+              "request": {
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "fiza",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"dataIn\": {\r\n        \"value\": \"PEN\",\r\n        \"description\": \"MONEDA SOLES\"\r\n    }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8032/api/v1/catalogs/6",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8032",
+                  "path": [
+                    "api",
+                    "v1",
+                    "catalogs",
+                    "6"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get catalogByTable: /api/v1/catalogs/filters?",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8032/api/v1/catalogs/filters?name=pa_moneda",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8032",
+                  "path": [
+                    "api",
+                    "v1",
+                    "catalogs",
+                    "filters"
+                  ],
+                  "query": [
+                    {
+                      "key": "name",
+                      "value": "pa_moneda"
+                    }
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "obtener-catalogo-tabla",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "http://localhost:8034/api/v1/catalogs/filters?name=pa_moneda",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8034",
+                      "path": [
+                        "api",
+                        "v1",
+                        "catalogs",
+                        "filters"
+                      ],
+                      "query": [
+                        {
+                          "key": "name",
+                          "value": "pa_moneda"
+                        }
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Transfer-Encoding",
+                      "value": "chunked"
+                    },
+                    {
+                      "key": "Date",
+                      "value": "Tue, 30 Sep 2025 04:29:55 GMT"
+                    },
+                    {
+                      "key": "Keep-Alive",
+                      "value": "timeout=60"
+                    },
+                    {
+                      "key": "Connection",
+                      "value": "keep-alive"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n    \"dataOut\": [\n        {\n            \"id\": 1,\n            \"code\": \"1\",\n            \"value\": \"USD\",\n            \"description\": \"MONEDA DOLAR\",\n            \"auxValue1\": null,\n            \"auxValue2\": null,\n            \"auxValue3\": null,\n            \"state\": \"V\"\n        },\n        {\n            \"id\": 46,\n            \"code\": \"2\",\n            \"value\": \"GBP\",\n            \"description\": \"MONEDA LIBRA ESTERLINA\",\n            \"auxValue1\": null,\n            \"auxValue2\": null,\n            \"auxValue3\": null,\n            \"state\": \"V\"\n        },\n        {\n            \"id\": 48,\n            \"code\": \"3\",\n            \"value\": \"JPY\",\n            \"description\": \"MONEDA YEN\",\n            \"auxValue1\": null,\n            \"auxValue2\": null,\n            \"auxValue3\": null,\n            \"state\": \"V\"\n        },\n        {\n            \"id\": 59,\n            \"code\": \"4\",\n            \"value\": \"CHF\",\n            \"description\": \"MONEDA FRANCO SUIZO\",\n            \"auxValue1\": null,\n            \"auxValue2\": null,\n            \"auxValue3\": null,\n            \"state\": \"V\"\n        },\n        {\n            \"id\": 60,\n            \"code\": \"5\",\n            \"value\": \"EUR\",\n            \"description\": \"MONEDA EURO\",\n            \"auxValue1\": null,\n            \"auxValue2\": null,\n            \"auxValue3\": null,\n            \"state\": \"V\"\n        }\n    ]\n}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cjn-mws-core-auth",
+      "item": [
+        {
+          "name": "jwt_token",
+          "item": [
+            {
+              "name": "login",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "auth",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "en",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"dataIn\": {\r\n        \"username\": \"admuser\",\r\n        \"password\": \"admin@2023\"\r\n    }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8031/api/v1/auth/login",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8031",
+                  "path": [
+                    "api",
+                    "v1",
+                    "auth",
+                    "login"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cjn-mws-company-management",
+      "item": [
+        {
+          "name": "em_empresa",
+          "item": [
+            {
+              "name": "listar-empresas",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "noauth"
+                },
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8033/api/v1/companies",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8033",
+                  "path": [
+                    "api",
+                    "v1",
+                    "companies"
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "listar-empresas",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "http://localhost:8033/api/v1/companies",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8033",
+                      "path": [
+                        "api",
+                        "v1",
+                        "companies"
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Length",
+                      "value": "826"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n    \"dataOut\": [\n        {\n            \"id\": 1,\n            \"code\": \"001\",\n            \"currency\": \"1\",\n            \"taxpayerType\": \"N\",\n            \"legalName\": \"EMPRESA DEFAULT\",\n            \"incorporationDate\": \"2025-11-21\",\n            \"description\": \"EMPRESA DEL SISTEMA\",\n            \"address\": \"N/A\",\n            \"taxIdentificationNumber\": \"N/A\",\n            \"isAccounting\": false,\n            \"industryType\": null,\n            \"companyType\": null,\n            \"legalRepresentative\": null,\n            \"logo\": null,\n            \"country\": null,\n            \"province\": null,\n            \"city\": null,\n            \"zipCode\": null,\n            \"status\": \"V\",\n            \"contacts\": []\n        },\n        {\n            \"id\": 2,\n            \"code\": \"002\",\n            \"currency\": \"1\",\n            \"taxpayerType\": \"E\",\n            \"legalName\": \"COOPERATIVA SEIS ENERO\",\n            \"incorporationDate\": \"2023-01-02\",\n            \"description\": \"Asociación familiar\",\n            \"address\": \"Quito\",\n            \"taxIdentificationNumber\": \"1714856711001\",\n            \"isAccounting\": true,\n            \"industryType\": null,\n            \"companyType\": null,\n            \"legalRepresentative\": \"ELVIA IZA TOAPANTA\",\n            \"logo\": null,\n            \"country\": \"1\",\n            \"province\": \"17\",\n            \"city\": \"1\",\n            \"zipCode\": null,\n            \"status\": \"V\",\n            \"contacts\": [\n                {\n                    \"id\": \"3\",\n                    \"type\": \"W\",\n                    \"value\": \"www.sistefac.com\",\n                    \"description\": \"Sitio web de la empresa\",\n                    \"status\": \"V\"\n                },\n                {\n                    \"id\": \"1\",\n                    \"type\": \"T\",\n                    \"value\": \"0961894896\",\n                    \"description\": \"Celular\",\n                    \"status\": \"V\"\n                },\n                {\n                    \"id\": \"2\",\n                    \"type\": \"M\",\n                    \"value\": \"prueba@gmail.com\",\n                    \"description\": \"Correo general\",\n                    \"status\": \"V\"\n                },\n                {\n                    \"id\": \"8\",\n                    \"type\": \"T\",\n                    \"value\": \"022698831\",\n                    \"description\": \"Telefono convencional\",\n                    \"status\": \"V\"\n                }\n            ]\n        }\n    ]\n}"
+                }
+              ]
+            },
+            {
+              "name": "obtener-empresa-id",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "noauth"
+                },
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8033/api/v1/companies/2",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8033",
+                  "path": [
+                    "api",
+                    "v1",
+                    "companies",
+                    "2"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "crear-empresa",
+              "request": {
+                "auth": {
+                  "type": "basic",
+                  "basic": [
+                    {
+                      "key": "password",
+                      "value": "desarrollo",
+                      "type": "string"
+                    },
+                    {
+                      "key": "username",
+                      "value": "desarrollo",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "1234567890-prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "es",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"dataIn\": {\r\n        \"code\": \"002\",\r\n        \"currency\": \"1\",\r\n        \"taxpayerType\": \"E\",\r\n        \"legalName\": \"COOPERATIVA FAMILIAR IZA\",\r\n        \"incorporationDate\": \"2023-01-02\",\r\n        \"description\": \"Asociación familiar\",\r\n        \"address\": \"Quito\",\r\n        \"taxIdentificationNumber\": \"1714856711001\",\r\n        \"isAccounting\": true,\r\n        \"industryType\": null,\r\n        \"companyType\": null,\r\n        \"legalRepresentative\": \"ELVIA IZA TOAPANTA\",\r\n        \"logo\": null,\r\n        \"country\": \"1\",\r\n        \"province\": \"17\",\r\n        \"city\": \"1\",\r\n        \"zipCode\": null,\r\n        \"contacts\": [\r\n            {\r\n                \"type\": \"T\",\r\n                \"value\": \"0961894896\",\r\n                \"description\": \"Celular\"\r\n            },            \r\n            {\r\n                \"type\": \"M\",\r\n                \"value\": \"cooperativaseisenero@gmail.com\",\r\n                \"description\": \"Correo general\"\r\n            }\r\n        ]\r\n    }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8033/api/v1/companies",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8033",
+                  "path": [
+                    "api",
+                    "v1",
+                    "companies"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "actualizar-parcial-empresa",
+              "request": {
+                "auth": {
+                  "type": "basic",
+                  "basic": [
+                    {
+                      "key": "password",
+                      "value": "desarrollo",
+                      "type": "string"
+                    },
+                    {
+                      "key": "username",
+                      "value": "desarrollo",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "1234567890-prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "en",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"dataIn\": {\r\n        \"legalName\": \"COOPERATIVA SEIS ENERO\",\r\n        \"contacts\": [\r\n            {\r\n                \"id\": 1,\r\n                \"type\": \"T\",\r\n                \"value\": \"0961894896\",\r\n                \"description\": \"Celular\",\r\n                \"status\": \"V\"\r\n            },  \r\n            {\r\n                \"id\": 2,\r\n                \"type\": \"M\",\r\n                \"value\": \"prueba@gmail.com\",\r\n                \"description\": \"Correo general\",\r\n                \"status\": \"V\"\r\n            },\r\n            {\r\n                \"type\": \"T\",\r\n                \"value\": \"022698831\",\r\n                \"description\": \"Telefono convencional\",\r\n                \"status\": \"V\"\r\n            }\r\n        ]\r\n    }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8033/api/v1/companies/2",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8033",
+                  "path": [
+                    "api",
+                    "v1",
+                    "companies",
+                    "2"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "filters",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:8033/api/v1/companies/filters?legalName=EMPRESA DEFAULT",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8033",
+                  "path": [
+                    "api",
+                    "v1",
+                    "companies",
+                    "filters"
+                  ],
+                  "query": [
+                    {
+                      "key": "legalName",
+                      "value": "EMPRESA DEFAULT"
+                    }
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "filters",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "http://localhost:8033/api/v1/companies/filters?legalName=EMPRESA DEFAULT",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8033",
+                      "path": [
+                        "api",
+                        "v1",
+                        "companies",
+                        "filters"
+                      ],
+                      "query": [
+                        {
+                          "key": "legalName",
+                          "value": "EMPRESA DEFAULT"
+                        }
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Length",
+                      "value": "402"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n    \"dataOut\": [\n        {\n            \"id\": 1,\n            \"code\": \"001\",\n            \"currency\": \"1\",\n            \"taxpayerType\": \"N\",\n            \"legalName\": \"EMPRESA DEFAULT\",\n            \"incorporationDate\": \"2025-11-17\",\n            \"description\": \"EMPRESA DEL SISTEMA\",\n            \"address\": \"N/A\",\n            \"taxIdentificationNumber\": \"N/A\",\n            \"isAccounting\": false,\n            \"industryType\": null,\n            \"companyType\": null,\n            \"legalRepresentative\": null,\n            \"logo\": null,\n            \"country\": null,\n            \"province\": null,\n            \"city\": null,\n            \"zipCode\": null,\n            \"status\": \"V\",\n            \"contacts\": null\n        }\n    ]\n}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "em_oficina",
+          "item": [
+            {
+              "name": "listar-oficinas-empresa",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "basic",
+                  "basic": [
+                    {
+                      "key": "password",
+                      "value": "desarrollo",
+                      "type": "string"
+                    },
+                    {
+                      "key": "username",
+                      "value": "desarrollo",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept-Language",
+                    "value": "en",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8033/api/v1/branches/company/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8033",
+                  "path": [
+                    "api",
+                    "v1",
+                    "branches",
+                    "company",
+                    "1"
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "listar-oficinas-empresa",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept-Language",
+                        "value": "es",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "http://localhost:8033/api/v1/branches/company/1",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8033",
+                      "path": [
+                        "api",
+                        "v1",
+                        "branches",
+                        "company",
+                        "1"
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Length",
+                      "value": "186"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n    \"dataOut\": [\n        {\n            \"id\": 1,\n            \"superiorOfficeId\": null,\n            \"companyId\": 1,\n            \"code\": \"001\",\n            \"name\": \"OFICINA MATRIZ\",\n            \"address\": null,\n            \"isAccounting\": false,\n            \"isConsolidating\": false,\n            \"status\": \"V\",\n            \"contacts\": null\n        }\n    ]\n}"
+                }
+              ]
+            },
+            {
+              "name": "obtener-oficina-id",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:8033/api/v1/branches/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8033",
+                  "path": [
+                    "api",
+                    "v1",
+                    "branches",
+                    "1"
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "obtener-oficina-id",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "http://localhost:8033/api/v1/branches/1",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8033",
+                      "path": [
+                        "api",
+                        "v1",
+                        "branches",
+                        "1"
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Length",
+                      "value": "184"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n    \"dataOut\": {\n        \"id\": 1,\n        \"superiorOfficeId\": null,\n        \"companyId\": 1,\n        \"code\": \"001\",\n        \"name\": \"OFICINA MATRIZ\",\n        \"address\": null,\n        \"isAccounting\": false,\n        \"isConsolidating\": false,\n        \"status\": \"V\",\n        \"contacts\": null\n    }\n}"
+                }
+              ]
+            },
+            {
+              "name": "obtener-oficina-nombre",
+              "request": {
+                "auth": {
+                  "type": "noauth"
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept-Language",
+                    "value": "es",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://localhost:8033/api/v1/branches/filters?name=OFICINA MATRIZ",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8033",
+                  "path": [
+                    "api",
+                    "v1",
+                    "branches",
+                    "filters"
+                  ],
+                  "query": [
+                    {
+                      "key": "name",
+                      "value": "OFICINA MATRIZ"
+                    }
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "obtener-oficina-nombre",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept-Language",
+                        "value": "es",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "http://localhost:8033/api/v1/branches/filters?name=OFICINA MATRIZ",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8033",
+                      "path": [
+                        "api",
+                        "v1",
+                        "branches",
+                        "filters"
+                      ],
+                      "query": [
+                        {
+                          "key": "name",
+                          "value": "OFICINA MATRIZ"
+                        }
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Length",
+                      "value": "184"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n    \"dataOut\": {\n        \"id\": 1,\n        \"superiorOfficeId\": null,\n        \"companyId\": 1,\n        \"code\": \"001\",\n        \"name\": \"OFICINA MATRIZ\",\n        \"address\": null,\n        \"isAccounting\": false,\n        \"isConsolidating\": false,\n        \"status\": \"V\",\n        \"contacts\": null\n    }\n}"
+                }
+              ]
+            },
+            {
+              "name": "crear-oficina",
+              "request": {
+                "auth": {
+                  "type": "basic",
+                  "basic": [
+                    {
+                      "key": "password",
+                      "value": "desarrollo",
+                      "type": "string"
+                    },
+                    {
+                      "key": "username",
+                      "value": "desarrollo",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "1234567890-prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "en",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"dataIn\": {\r\n        \"companyId\": 2,\r\n        \"code\": \"001\",\r\n        \"name\": \"MATRIZ\",\r\n        \"address\": \"Cdla Batallón Chimborazo\",\r\n        \"isAccounting\": true,\r\n        \"isConsolidating\": true,\r\n        \"contacts\": [\r\n            {\r\n                \"type\": \"T\",\r\n                \"value\": \"0961894896\",\r\n                \"description\": \"Celular\"\r\n            },            \r\n            {\r\n                \"type\": \"M\",\r\n                \"value\": \"cooperativaseisenero@gmail.com\",\r\n                \"description\": \"Correo general\"\r\n            }\r\n        ]\r\n    }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8033/api/v1/branches",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8033",
+                  "path": [
+                    "api",
+                    "v1",
+                    "branches"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "actualizar-parcial-oficina",
+              "request": {
+                "auth": {
+                  "type": "basic",
+                  "basic": [
+                    {
+                      "key": "password",
+                      "value": "desarrollo",
+                      "type": "string"
+                    },
+                    {
+                      "key": "username",
+                      "value": "desarrollo",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "1234567890-prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "en",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"dataIn\": {\r\n        \"legalName\": \"COOPERATIVA SEIS ENERO\",\r\n        \"contacts\": [\r\n            {\r\n                \"id\": 1,\r\n                \"type\": \"T\",\r\n                \"value\": \"0961894896\",\r\n                \"description\": \"Celular\",\r\n                \"status\": \"V\"\r\n            },  \r\n            {\r\n                \"id\": 2,\r\n                \"type\": \"M\",\r\n                \"value\": \"prueba@gmail.com\",\r\n                \"description\": \"Correo general\",\r\n                \"status\": \"V\"\r\n            },\r\n            {\r\n                \"type\": \"T\",\r\n                \"value\": \"022698831\",\r\n                \"description\": \"Telefono convencional\",\r\n                \"status\": \"V\"\r\n            }\r\n        ]\r\n    }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8033/api/v1/companies/2",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8033",
+                  "path": [
+                    "api",
+                    "v1",
+                    "companies",
+                    "2"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cjn-mws-security-management",
+      "item": [
+        {
+          "name": "listar-usuarios",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "desarrollo",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "desarrollo",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8034/api/v1/users",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8034",
+              "path": [
+                "api",
+                "v1",
+                "users"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "obtener-usuario-id",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "desarrollo",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "desarrollo",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "x-user",
+                "value": "admuser",
+                "type": "text"
+              },
+              {
+                "key": "x-device",
+                "value": "postman",
+                "type": "text"
+              },
+              {
+                "key": "x-session",
+                "value": "1234567890-prueba",
+                "type": "text"
+              },
+              {
+                "key": "x-guid",
+                "value": "550e8400-e29b-41d4-a716-446655440000",
+                "type": "text"
+              },
+              {
+                "key": "x-app-name",
+                "value": "joanic",
+                "type": "text"
+              },
+              {
+                "key": "x-device-ip",
+                "value": "192.168.100.17",
+                "type": "text"
+              },
+              {
+                "key": "x-date",
+                "value": "2025-10-13T21:09:00Z",
+                "type": "text"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "es",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8034/api/v1/users/11",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8034",
+              "path": [
+                "api",
+                "v1",
+                "users",
+                "11"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "crear-usuario",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "desarrollo",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "desarrollo",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "x-user",
+                "value": "admuser",
+                "type": "text"
+              },
+              {
+                "key": "x-device",
+                "value": "postman",
+                "type": "text"
+              },
+              {
+                "key": "x-session",
+                "value": "1234567890-prueba",
+                "type": "text"
+              },
+              {
+                "key": "x-guid",
+                "value": "550e8400-e29b-41d4-a716-446655440000",
+                "type": "text"
+              },
+              {
+                "key": "x-app-name",
+                "value": "joanic",
+                "type": "text"
+              },
+              {
+                "key": "x-device-ip",
+                "value": "192.168.100.17",
+                "type": "text"
+              },
+              {
+                "key": "x-date",
+                "value": "2025-10-13T21:09:00Z",
+                "type": "text"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "es",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"dataIn\": {\r\n        \"firstName\": \"Franklin Santiago\",\r\n        \"lastName\": \"Iza Iza\",\r\n        \"documentType\": \"C\",\r\n        \"documentNumber\": \"1714856711\",\r\n        \"username\": \"santiiza\",\r\n        \"password\": \"santiiza\",\r\n        \"uniqueness\": \"ejemplo\",\r\n        \"birthDate\": \"1982-07-17\",\r\n        \"gender\": \"M\",\r\n        \"email\": \"santiiza@hotmail.com\",\r\n        \"position\": \"\",\r\n        \"address\": \"El Col8bri\",\r\n        \"phone1\": \"\",\r\n        \"phone2\": \"\",\r\n        \"goals\": null,\r\n        \"factor\": 0\r\n    }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8034/api/v1/users",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8034",
+              "path": [
+                "api",
+                "v1",
+                "users"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "actualizar",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "36129716-98ae-4575-aef8-e0044fb061c6",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "user",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8031/api/v1/seguridad-autenticacion/actualizar",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8031",
+              "path": [
+                "api",
+                "v1",
+                "seguridad-autenticacion",
+                "actualizar"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "actualizar",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "b6cbd260-eaaa-4da7-bd25-c883f0b1140c",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "user",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"headerIn\": {\r\n        \"dispositivo\": null,\r\n        \"sesion\": \"qwertyu273457ugadua427398ugds\",\r\n        \"tipoTransaccion\": null,\r\n        \"fechaHora\": \"2022-07-24T12:23:23Z\",\r\n        \"filler\": null,\r\n        \"idCliente\": \"1714856711\",\r\n        \"idioma\": \"es-EC\",\r\n        \"tipoIdCliente\": \"cedula\",\r\n        \"ip\": \"192.168.100.17\",\r\n        \"requestIp\": \"192.168.100.17\",\r\n        \"canal\": \"web\",\r\n        \"medio\": \"internet\",\r\n        \"aplicacion\": \"sisinvenfac\",\r\n        \"usuario\": \"siza\",\r\n        \"empresa\": \"0001\",\r\n        \"sucursal\": \"001\",\r\n        \"bodega\": \"001\",\r\n        \"guid\": \"QWERTY23456SGHJD34567D8FDSZFGH\"\r\n    },\r\n    \"bodyIn\": {\r\n        \"username\":\"admuser\",\r\n        \"password\":\"\"\r\n    }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8031/api/v1/seguridad-autenticacion/actualizar",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8031",
+              "path": [
+                "api",
+                "v1",
+                "seguridad-autenticacion",
+                "actualizar"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "obtener-menu",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "desarrollo",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "desarrollo",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"headerIn\": {\r\n        \"dispositivo\": \"2142431jf\",\r\n        \"sesion\": \"qwertyu273457ugadua427398ugds\",\r\n        \"tipoTransaccion\": \"21233\",\r\n        \"fechaHora\": \"2022-07-24T12:23:23Z\",\r\n        \"filler\": null,\r\n        \"idCliente\": \"1714856711\",\r\n        \"idioma\": \"es-EC\",\r\n        \"tipoIdCliente\": \"cedula\",\r\n        \"ip\": \"192.168.100.17\",\r\n        \"requestIp\": \"192.168.100.17\",\r\n        \"canal\": \"web\",\r\n        \"medio\": \"internet\",\r\n        \"aplicacion\": \"sisinvenfac\",\r\n        \"usuario\": \"siza\",\r\n        \"empresa\": \"0001\",\r\n        \"sucursal\": \"001\",\r\n        \"bodega\": \"001\",\r\n        \"guid\": \"QWERTY23456SGHJD34567D8FDSZFGH\"\r\n    },\r\n    \"bodyIn\": {\r\n        \"authority\": \"ADMINISTRADOR\"\r\n    }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8031/api/v1/seguridad/obtener-menu",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8031",
+              "path": [
+                "api",
+                "v1",
+                "seguridad",
+                "obtener-menu"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "cjn-mws-core-menu-management",
+      "item": [
+        {
+          "name": "menu",
+          "item": [
+            {
+              "name": "listar-menus",
+              "request": {
+                "auth": {
+                  "type": "basic",
+                  "basic": [
+                    {
+                      "key": "password",
+                      "value": "desarrollo",
+                      "type": "string"
+                    },
+                    {
+                      "key": "username",
+                      "value": "desarrollo",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:8035/api/v1/menus",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8035",
+                  "path": [
+                    "api",
+                    "v1",
+                    "menus"
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "listar-menus",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "http://localhost:8035/api/v1/menus",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8035",
+                      "path": [
+                        "api",
+                        "v1",
+                        "menus"
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Length",
+                      "value": "2655"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n    \"dataOut\": [\n        {\n            \"id\": 1,\n            \"superiorId\": null,\n            \"acronym\": \"ADMINI\",\n            \"isExtended\": false,\n            \"description\": \"AdministraciÃ³n\",\n            \"path\": null,\n            \"parameters\": null,\n            \"icon\": \"fal fa-cogs\",\n            \"status\": \"V\",\n            \"submenus\": [\n                {\n                    \"id\": 2,\n                    \"superiorId\": 1,\n                    \"acronym\": \"ADMMNT\",\n                    \"isExtended\": false,\n                    \"description\": \"Mantenimiento\",\n                    \"path\": null,\n                    \"parameters\": null,\n                    \"icon\": \"fal fa-building\",\n                    \"status\": \"V\",\n                    \"submenus\": [\n                        {\n                            \"id\": 3,\n                            \"superiorId\": 2,\n                            \"acronym\": \"ADUSER\",\n                            \"isExtended\": false,\n                            \"description\": \"Usuarios\",\n                            \"path\": \"/administracion/usuario\",\n                            \"parameters\": null,\n                            \"icon\": \"fal fa-user\",\n                            \"status\": \"V\",\n                            \"submenus\": []\n                        },\n                        {\n                            \"id\": 4,\n                            \"superiorId\": 2,\n                            \"acronym\": \"ADEMPR\",\n                            \"isExtended\": false,\n                            \"description\": \"Empresas\",\n                            \"path\": \"/administracion/empresa\",\n                            \"parameters\": null,\n                            \"icon\": \"fal fa-suitcase\",\n                            \"status\": \"V\",\n                            \"submenus\": []\n                        },\n                        {\n                            \"id\": 5,\n                            \"superiorId\": 2,\n                            \"acronym\": \"ADOFIC\",\n                            \"isExtended\": false,\n                            \"description\": \"Oficinas\",\n                            \"path\": \"/administracion/oficina\",\n                            \"parameters\": null,\n                            \"icon\": \"fal fa-map-marker\",\n                            \"status\": \"V\",\n                            \"submenus\": []\n                        },\n                        {\n                            \"id\": 6,\n                            \"superiorId\": 2,\n                            \"acronym\": \"ADEJER\",\n                            \"isExtended\": false,\n                            \"description\": \"Estructura\",\n                            \"path\": \"/administracion/estructura-organizacional\",\n                            \"parameters\": null,\n                            \"icon\": \"fal fa-sitemap\",\n                            \"status\": \"V\",\n                            \"submenus\": []\n                        },\n                        {\n                            \"id\": 7,\n                            \"superiorId\": 2,\n                            \"acronym\": \"ADAREA\",\n                            \"isExtended\": false,\n                            \"description\": \"Areas\",\n                            \"path\": \"/administracion/areas\",\n                            \"parameters\": null,\n                            \"icon\": \"fal fa-folder-tree\",\n                            \"status\": \"V\",\n                            \"submenus\": []\n                        },\n                        {\n                            \"id\": 8,\n                            \"superiorId\": 2,\n                            \"acronym\": \"ADPFIS\",\n                            \"isExtended\": false,\n                            \"description\": \"PerÃ\\u00adodo Fiscal\",\n                            \"path\": \"/administracion/periodo-fiscal\",\n                            \"parameters\": null,\n                            \"icon\": \"fal fa-calendar\",\n                            \"status\": \"V\",\n                            \"submenus\": []\n                        }\n                    ]\n                },\n                {\n                    \"id\": 9,\n                    \"superiorId\": 1,\n                    \"acronym\": \"ADPCTA\",\n                    \"isExtended\": false,\n                    \"description\": \"Plan de Cuentas\",\n                    \"path\": null,\n                    \"parameters\": null,\n                    \"icon\": \"fal fa-clipboard-list\",\n                    \"status\": \"V\",\n                    \"submenus\": [\n                        {\n                            \"id\": 10,\n                            \"superiorId\": 9,\n                            \"acronym\": \"ADNIVL\",\n                            \"isExtended\": false,\n                            \"description\": \"Niveles\",\n                            \"path\": \"/contabilidad/nivel-cuenta\",\n                            \"parameters\": null,\n                            \"icon\": \"fal fa-sitemap\",\n                            \"status\": \"V\",\n                            \"submenus\": []\n                        },\n                        {\n                            \"id\": 11,\n                            \"superiorId\": 9,\n                            \"acronym\": \"ADCCTB\",\n                            \"isExtended\": false,\n                            \"description\": \"Cuentas\",\n                            \"path\": \"/contabilidad/plan-cuenta\",\n                            \"parameters\": null,\n                            \"icon\": \"fal fa-list-alt\",\n                            \"status\": \"V\",\n                            \"submenus\": []\n                        }\n                    ]\n                }\n            ]\n        },\n        {\n            \"id\": 12,\n            \"superiorId\": null,\n            \"acronym\": \"REPORT\",\n            \"isExtended\": false,\n            \"description\": \"Reportes\",\n            \"path\": null,\n            \"parameters\": null,\n            \"icon\": \"fal fa-file-excel\",\n            \"status\": \"V\",\n            \"submenus\": [\n                {\n                    \"id\": 13,\n                    \"superiorId\": 12,\n                    \"acronym\": \"RPTCLI\",\n                    \"isExtended\": false,\n                    \"description\": \"Clientes\",\n                    \"path\": null,\n                    \"parameters\": null,\n                    \"icon\": \"file-prescription\",\n                    \"status\": \"V\",\n                    \"submenus\": [\n                        {\n                            \"id\": 14,\n                            \"superiorId\": 13,\n                            \"acronym\": \"ESTCTA\",\n                            \"isExtended\": false,\n                            \"description\": \"Estado de cuenta\",\n                            \"path\": \"/reportes/estado-cuenta\",\n                            \"parameters\": null,\n                            \"icon\": \"fal fa-file-invoice-dollar\",\n                            \"status\": \"V\",\n                            \"submenus\": []\n                        }\n                    ]\n                }\n            ]\n        }\n    ]\n}"
+                }
+              ]
+            },
+            {
+              "name": "obtener-menu-id",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "basic",
+                  "basic": [
+                    {
+                      "key": "password",
+                      "value": "desarrollo",
+                      "type": "string"
+                    },
+                    {
+                      "key": "username",
+                      "value": "desarrollo",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "1234567890-prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "es",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8035/api/v1/menus/15",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8035",
+                  "path": [
+                    "api",
+                    "v1",
+                    "menus",
+                    "15"
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "obtener-menu-id",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "x-user",
+                        "value": "admuser",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-device",
+                        "value": "postman",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-session",
+                        "value": "1234567890-prueba",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-guid",
+                        "value": "550e8400-e29b-41d4-a716-446655440000",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-app-name",
+                        "value": "joanic",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-device-ip",
+                        "value": "192.168.100.17",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-date",
+                        "value": "2025-10-13T21:09:00Z",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "es",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": {
+                      "raw": "http://localhost:8035/api/v1/menus/1",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8035",
+                      "path": [
+                        "api",
+                        "v1",
+                        "menus",
+                        "1"
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Length",
+                      "value": "188"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n    \"dataOut\": {\n        \"id\": 1,\n        \"superiorId\": null,\n        \"acronym\": \"ADMINI\",\n        \"isExtended\": false,\n        \"description\": \"AdministraciÃ³n\",\n        \"path\": null,\n        \"parameters\": null,\n        \"icon\": \"fal fa-cogs\",\n        \"status\": \"V\",\n        \"submenus\": []\n    }\n}"
+                }
+              ]
+            },
+            {
+              "name": "obtener-menu-rol-id",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "basic",
+                  "basic": [
+                    {
+                      "key": "password",
+                      "value": "desarrollo",
+                      "type": "string"
+                    },
+                    {
+                      "key": "username",
+                      "value": "desarrollo",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "1234567890-prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "es",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8035/api/v1/menus/role/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8035",
+                  "path": [
+                    "api",
+                    "v1",
+                    "menus",
+                    "role",
+                    "1"
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "obtener-menu-rol-id",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "x-user",
+                        "value": "admuser",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-device",
+                        "value": "postman",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-session",
+                        "value": "1234567890-prueba",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-guid",
+                        "value": "550e8400-e29b-41d4-a716-446655440000",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-app-name",
+                        "value": "joanic",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-device-ip",
+                        "value": "192.168.100.17",
+                        "type": "text"
+                      },
+                      {
+                        "key": "x-date",
+                        "value": "2025-10-13T21:09:00Z",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "es",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": {
+                      "raw": "http://localhost:8035/api/v1/menus/role/1",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8035",
+                      "path": [
+                        "api",
+                        "v1",
+                        "menus",
+                        "role",
+                        "1"
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Length",
+                      "value": "2098"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n    \"dataOut\": [\n        {\n            \"id\": 1,\n            \"superiorId\": null,\n            \"acronym\": \"ADMINI\",\n            \"isExtended\": false,\n            \"description\": \"AdministraciÃ³n\",\n            \"path\": null,\n            \"parameters\": null,\n            \"icon\": \"fal fa-cogs\",\n            \"status\": \"V\",\n            \"submenus\": [\n                {\n                    \"id\": 2,\n                    \"superiorId\": 1,\n                    \"acronym\": \"ADMMNT\",\n                    \"isExtended\": false,\n                    \"description\": \"Mantenimiento\",\n                    \"path\": null,\n                    \"parameters\": null,\n                    \"icon\": \"fal fa-building\",\n                    \"status\": \"V\",\n                    \"submenus\": [\n                        {\n                            \"id\": 7,\n                            \"superiorId\": 2,\n                            \"acronym\": \"ADAREA\",\n                            \"isExtended\": false,\n                            \"description\": \"Areas\",\n                            \"path\": \"/administracion/areas\",\n                            \"parameters\": null,\n                            \"icon\": \"fal fa-folder-tree\",\n                            \"status\": \"V\",\n                            \"submenus\": []\n                        },\n                        {\n                            \"id\": 5,\n                            \"superiorId\": 2,\n                            \"acronym\": \"ADOFIC\",\n                            \"isExtended\": false,\n                            \"description\": \"Oficinas\",\n                            \"path\": \"/administracion/oficina\",\n                            \"parameters\": null,\n                            \"icon\": \"fal fa-map-marker\",\n                            \"status\": \"V\",\n                            \"submenus\": []\n                        },\n                        {\n                            \"id\": 6,\n                            \"superiorId\": 2,\n                            \"acronym\": \"ADEJER\",\n                            \"isExtended\": false,\n                            \"description\": \"Estructura\",\n                            \"path\": \"/administracion/estructura-organizacional\",\n                            \"parameters\": null,\n                            \"icon\": \"fal fa-sitemap\",\n                            \"status\": \"V\",\n                            \"submenus\": []\n                        },\n                        {\n                            \"id\": 4,\n                            \"superiorId\": 2,\n                            \"acronym\": \"ADEMPR\",\n                            \"isExtended\": false,\n                            \"description\": \"Empresas\",\n                            \"path\": \"/administracion/empresa\",\n                            \"parameters\": null,\n                            \"icon\": \"fal fa-suitcase\",\n                            \"status\": \"V\",\n                            \"submenus\": []\n                        },\n                        {\n                            \"id\": 3,\n                            \"superiorId\": 2,\n                            \"acronym\": \"ADUSER\",\n                            \"isExtended\": false,\n                            \"description\": \"Usuarios\",\n                            \"path\": \"/administracion/usuario\",\n                            \"parameters\": null,\n                            \"icon\": \"fal fa-user\",\n                            \"status\": \"V\",\n                            \"submenus\": []\n                        },\n                        {\n                            \"id\": 8,\n                            \"superiorId\": 2,\n                            \"acronym\": \"ADPFIS\",\n                            \"isExtended\": false,\n                            \"description\": \"PerÃ\\u00adodo Fiscal\",\n                            \"path\": \"/administracion/periodo-fiscal\",\n                            \"parameters\": null,\n                            \"icon\": \"fal fa-calendar\",\n                            \"status\": \"V\",\n                            \"submenus\": []\n                        }\n                    ]\n                },\n                {\n                    \"id\": 9,\n                    \"superiorId\": 1,\n                    \"acronym\": \"ADPCTA\",\n                    \"isExtended\": false,\n                    \"description\": \"Plan de Cuentas\",\n                    \"path\": null,\n                    \"parameters\": null,\n                    \"icon\": \"fal fa-clipboard-list\",\n                    \"status\": \"V\",\n                    \"submenus\": [\n                        {\n                            \"id\": 10,\n                            \"superiorId\": 9,\n                            \"acronym\": \"ADNIVL\",\n                            \"isExtended\": false,\n                            \"description\": \"Niveles\",\n                            \"path\": \"/contabilidad/nivel-cuenta\",\n                            \"parameters\": null,\n                            \"icon\": \"fal fa-sitemap\",\n                            \"status\": \"V\",\n                            \"submenus\": []\n                        },\n                        {\n                            \"id\": 11,\n                            \"superiorId\": 9,\n                            \"acronym\": \"ADCCTB\",\n                            \"isExtended\": false,\n                            \"description\": \"Cuentas\",\n                            \"path\": \"/contabilidad/plan-cuenta\",\n                            \"parameters\": null,\n                            \"icon\": \"fal fa-list-alt\",\n                            \"status\": \"V\",\n                            \"submenus\": []\n                        }\n                    ]\n                }\n            ]\n        }\n    ]\n}"
+                }
+              ]
+            },
+            {
+              "name": "crear-menu",
+              "request": {
+                "auth": {
+                  "type": "basic",
+                  "basic": [
+                    {
+                      "key": "password",
+                      "value": "desarrollo",
+                      "type": "string"
+                    },
+                    {
+                      "key": "username",
+                      "value": "desarrollo",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "1234567890-prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "es",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"dataIn\": {\r\n        \"acronym\": \"CARTER\",\r\n        \"isExtended\": false,\r\n        \"description\": \"Cartera\",\r\n        \"icon\": \"fal fa-loan\"\r\n    }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8035/api/v1/menus",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8035",
+                  "path": [
+                    "api",
+                    "v1",
+                    "menus"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "actualizar",
+              "request": {
+                "auth": {
+                  "type": "basic",
+                  "basic": [
+                    {
+                      "key": "password",
+                      "value": "36129716-98ae-4575-aef8-e0044fb061c6",
+                      "type": "string"
+                    },
+                    {
+                      "key": "username",
+                      "value": "user",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "1234567890-prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "es",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"dataIn\": {\r\n        \"description\": \"Carteras\"\r\n    }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8035/api/v1/menus/15",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8035",
+                  "path": [
+                    "api",
+                    "v1",
+                    "menus",
+                    "15"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "nivel",
+          "item": [
+            {
+              "name": "listar-niveles-defecto",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "1234567890-prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "es",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://localhost:8035/api/v1/default-accounts/levels",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8035",
+                  "path": [
+                    "api",
+                    "v1",
+                    "default-accounts",
+                    "levels"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "obtener-nivel-id",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "1234567890-prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "es",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://localhost:8035/api/v1/default-accounts/levels/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8035",
+                  "path": [
+                    "api",
+                    "v1",
+                    "default-accounts",
+                    "levels",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "crear-nivel-defecto",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "1234567890-prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "es",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"dataIn\": {\r\n        \"level\": 7,\r\n        \"length\": 2,\r\n        \"description\": \"NIVEL 7\"\r\n    }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8035/api/v1/default-accounts/levels",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8035",
+                  "path": [
+                    "api",
+                    "v1",
+                    "default-accounts",
+                    "levels"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "update-nivel-defecto",
+              "request": {
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "1234567890-prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "es",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"dataIn\": {\r\n        \"level\": 7,\r\n        \"length\": 2,\r\n        \"description\": \"NIVEL 7\"\r\n    }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8035/api/v1/default-accounts/levels/7",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8035",
+                  "path": [
+                    "api",
+                    "v1",
+                    "default-accounts",
+                    "levels",
+                    "7"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "cuenta-defecto",
+          "item": [
+            {
+              "name": "listar-cuentas-defecto",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "1234567890-prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "es",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://localhost:8035/api/v1/default-account",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8035",
+                  "path": [
+                    "api",
+                    "v1",
+                    "default-account"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "obtener-cuenta-id",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device",
+                    "value": "postman",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-session",
+                    "value": "1234567890-prueba",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-guid",
+                    "value": "550e8400-e29b-41d4-a716-446655440000",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-app-name",
+                    "value": "joanic",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-device-ip",
+                    "value": "192.168.100.17",
+                    "type": "text"
+                  },
+                  {
+                    "key": "x-date",
+                    "value": "2025-10-13T21:09:00Z",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "es",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://localhost:8035/api/v1/default-account",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8035",
+                  "path": [
+                    "api",
+                    "v1",
+                    "default-account"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "api-gateway-backend",
+      "item": [
+        {
+          "name": "cargar-archivo",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzM4NCJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiQURNSU5JU1RSQURPUiJ9LHsiYXV0aG9yaXR5IjoiVkVOREVET1IifSx7ImF1dGhvcml0eSI6IlJFUE9SVEVTIn1dLCJub21icmVDb21wbGV0byI6IkFkbWluaXN0cmFkb3IgQWRtaW5pc3RyYWRvciIsInN1YiI6ImFkbXVzZXIiLCJpYXQiOjE3MDk3ODY5OTcsImV4cCI6MTcwOTgwMTM5N30.Xy2v7cZJVnghCkbDw3xGclXVS_RZN5J6mB6jt46Xq54LWJlVSLTGhjWw4XDM7UwF",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "archivo",
+                  "type": "file",
+                  "src": "/C:/Users/SANTIAGO-2021/Pictures/Saved Pictures/Resultados Resonancia.jpg"
+                },
+                {
+                  "key": "clase",
+                  "value": "usuario",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "http://localhost:8030/api/documental/cargar-archivo-51",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8030",
+              "path": [
+                "api",
+                "documental",
+                "cargar-archivo-51"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "crear-usuario",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzM4NCJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiQURNSU5JU1RSQURPUiJ9LHsiYXV0aG9yaXR5IjoiVkVOREVET1IifSx7ImF1dGhvcml0eSI6IlJFUE9SVEVTIn1dLCJub21icmVDb21wbGV0byI6IkFkbWluaXN0cmFkb3IgQWRtaW5pc3RyYWRvciIsInN1YiI6ImFkbXVzZXIiLCJpYXQiOjE3MTAyODEyOTMsImV4cCI6MTcxMDI5NTY5M30.Cr4Hyw8KjhJ48q1ACsMKRSrSIeJCpnCUO03ODrvk-4K2MbxD2foStysT6LoZ5xcP",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"dataIn\": {\r\n        \"id\": 0,\r\n        \"nombre\": \"Franklin Santiago\",\r\n        \"apellido\": \"Iza Iza\",\r\n        \"tipoIdentificacion\": \"C\",\r\n        \"identificacion\": \"1714856711\",\r\n        \"username\": \"santiiza\",\r\n        \"password\": \"santiiza\",\r\n        \"guid\": \"\",\r\n        \"fechaNacimiento\": \"1982-07-17\",\r\n        \"genero\": \"M\",\r\n        \"email\": \"santiiza@hotmail.com\",\r\n        \"cargo\": \"\",\r\n        \"direccion\": \"El Col8bri\",\r\n        \"telefono1\": \"\",\r\n        \"telefono2\": \"\",\r\n        \"metas\": null,\r\n        \"factor\": 0,\r\n        \"usuarioRegistra\": \"\",\r\n        \"fechaRegistra\": \"\",\r\n        \"usuarioActualiza\": \"\",\r\n        \"fechaActualiza\": \"\",\r\n        \"estado\": \"\"\r\n    }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8030/api/seguridad-crear-usuario-11",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8030",
+              "path": [
+                "api",
+                "seguridad-crear-usuario-11"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "login",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"dataIn\": {\r\n        \"username\":\"admuser\",\r\n        \"password\":\"admin@2022\"\r\n    }\r\n}\r\n\r\n",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8030/api/seguridad-autenticacion/login",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8030",
+              "path": [
+                "api",
+                "seguridad-autenticacion",
+                "login"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "listar-empresas",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzM4NCJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiUkVQT1JURVMifSx7ImF1dGhvcml0eSI6IlZFTkRFRE9SIn0seyJhdXRob3JpdHkiOiJBRE1JTklTVFJBRE9SIn1dLCJub21icmVDb21wbGV0byI6IkFkbWluaXN0cmFkb3IgQWRtaW5pc3RyYWRvciIsInN1YiI6ImFkbXVzZXIiLCJpYXQiOjE3MDkzNjU3MjYsImV4cCI6MTcwOTM2NzE2Nn0.tjaNiSLYYO0RA8JKUvFTdHHIR7lPMIdw1HQZ3xYMUGcy_Y7LjLIZLDDco6gh-Jvs",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-Token",
+                "value": "eyJhbGciOiJIUzM4NCJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiQURNSU5JU1RSQURPUiJ9LHsiYXV0aG9yaXR5IjoiVkVOREVET1IifV0sIm5vbWJyZUNvbXBsZXRvIjoiQWRtaW5pc3RyYWRvciBBZG1pbmlzdHJhZG9yIiwic3ViIjoiYWRtdXNlciIsImlhdCI6MTcwNDI1NjQxNSwiZXhwIjoxNzA0MjkyNDE1fQ.fNPmPX6t8ufU1MPlS3Am3NVvGaKrL1VtvouHLQtl6czTW66tj_juSw7VEgl6mUjm",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8030/api/administracion-empresas-consultar-01",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8030",
+              "path": [
+                "api",
+                "administracion-empresas-consultar-01"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "listar-oficinas-empresa",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzM4NCJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiQURNSU5JU1RSQURPUiJ9LHsiYXV0aG9yaXR5IjoiVkVOREVET1IifV0sIm5vbWJyZUNvbXBsZXRvIjoiQWRtaW5pc3RyYWRvciBBZG1pbmlzdHJhZG9yIiwic3ViIjoiYWRtdXNlciIsImlhdCI6MTcwNTc1Njg2NSwiZXhwIjoxNzA1NzkyODY1fQ.WDlQS8X7S8uKUcDi97LAj0TKDqMFkcLHNzn2u-IO1OOcNkrWf1F71dZ6TlzJDUPl",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-Token",
+                "value": "eyJhbGciOiJIUzM4NCJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiQURNSU5JU1RSQURPUiJ9LHsiYXV0aG9yaXR5IjoiVkVOREVET1IifV0sIm5vbWJyZUNvbXBsZXRvIjoiQWRtaW5pc3RyYWRvciBBZG1pbmlzdHJhZG9yIiwic3ViIjoiYWRtdXNlciIsImlhdCI6MTcwMzQzMTY5MiwiZXhwIjoxNzAzNDM1MjkyfQ.uRJNQBLteBW1uQgbZbLkOutPEOVi3PCnaduCz6KNR03mPKkVMZXdhaohUFFgcq_R",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"dataIn\": {\r\n        \"codigo\": 1\r\n    }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8030/api/administracion-oficinas-consultar-empresa-01",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8030",
+              "path": [
+                "api",
+                "administracion-oficinas-consultar-empresa-01"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "administracion-menu-consultar-01",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzM4NCJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVkVOREVET1IifSx7ImF1dGhvcml0eSI6IkFETUlOSVNUUkFET1IifV0sIm5vbWJyZUNvbXBsZXRvIjoiQWRtaW5pc3RyYWRvciBBZG1pbmlzdHJhZG9yIiwic3ViIjoiYWRtdXNlciIsImlhdCI6MTcwNjE1MTE4NiwiZXhwIjoxNzA2MTUyNjI2fQ.c0uE7na-6dkWRayQdykJJgONLMrkDtyysFcJic6_SOiwAGB8kJqkKgPEQjCxGks8",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"dataIn\": {\r\n        \"authority\": \"ADMINISTRADOR\"\r\n    }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8030/api/administracion-menu-consultar-01",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8030",
+              "path": [
+                "api",
+                "administracion-menu-consultar-01"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "cjn-api-core-gateway",
+      "item": [
+        {
+          "name": "auth",
+          "item": [
+            {
+              "name": "login",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"dataIn\": {\r\n        \"username\": \"admuser\",\r\n        \"password\": \"admin@2022\"\r\n    }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8030/api/v1/auth/login",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8030",
+                  "path": [
+                    "api",
+                    "v1",
+                    "auth",
+                    "login"
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "login",
+                  "originalRequest": {
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\r\n    \"dataIn\": {\r\n        \"username\": \"admuser\",\r\n        \"password\": \"admin@2022\"\r\n    }\r\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": {
+                      "raw": "http://localhost:8030/api/v1/auth/login",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8030",
+                      "path": [
+                        "api",
+                        "v1",
+                        "auth",
+                        "login"
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Length",
+                      "value": "385"
+                    },
+                    {
+                      "key": "Cache-Control",
+                      "value": "no-cache, no-store, max-age=0, must-revalidate"
+                    },
+                    {
+                      "key": "Pragma",
+                      "value": "no-cache"
+                    },
+                    {
+                      "key": "Expires",
+                      "value": "0"
+                    },
+                    {
+                      "key": "X-Content-Type-Options",
+                      "value": "nosniff"
+                    },
+                    {
+                      "key": "X-Frame-Options",
+                      "value": "DENY"
+                    },
+                    {
+                      "key": "X-XSS-Protection",
+                      "value": "0"
+                    },
+                    {
+                      "key": "Referrer-Policy",
+                      "value": "no-referrer"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n    \"dataOut\": \"eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siaWQiOjEsIm5hbWUiOiJBRE1JTklTVFJBRE9SIn0seyJpZCI6MywibmFtZSI6IlJFUE9SVEVTIn0seyJpZCI6MiwibmFtZSI6IlZFTkRFRE9SIn1dLCJhcGVsbGlkbyI6IkFkbWluaXN0cmFkb3IiLCJpZGVudGlmaWNhY2lvbiI6Ik4vQSIsImlkIjoxLCJub21icmUiOiJBZG1pbmlzdHJhZG9yIiwic3ViIjoiYWRtdXNlciIsImlhdCI6MTc1OTk0ODc5NSwiZXhwIjoxNzU5OTUyMzk1fQ.jBCM_sB5MtjLsSYvlykGc1qRc6ukBdDS3dZb2pdOAUM\"\n}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ca_tabla",
+          "item": [
+            {
+              "name": "obtener-tablas",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "noauth"
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "admuser",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8030/api/v1/tables",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8030",
+                  "path": [
+                    "api",
+                    "v1",
+                    "tables"
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "obtener-tablas",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "x-user",
+                        "value": "admuser",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "http://localhost:8030/api/v1/tables",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8030",
+                      "path": [
+                        "api",
+                        "v1",
+                        "tables"
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "transfer-encoding",
+                      "value": "chunked"
+                    },
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Date",
+                      "value": "Thu, 09 Oct 2025 00:27:52 GMT"
+                    },
+                    {
+                      "key": "Cache-Control",
+                      "value": "no-cache, no-store, max-age=0, must-revalidate"
+                    },
+                    {
+                      "key": "Pragma",
+                      "value": "no-cache"
+                    },
+                    {
+                      "key": "Expires",
+                      "value": "0"
+                    },
+                    {
+                      "key": "X-Content-Type-Options",
+                      "value": "nosniff"
+                    },
+                    {
+                      "key": "X-Frame-Options",
+                      "value": "DENY"
+                    },
+                    {
+                      "key": "X-XSS-Protection",
+                      "value": "0"
+                    },
+                    {
+                      "key": "Referrer-Policy",
+                      "value": "no-referrer"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n    \"dataOut\": [\n        {\n            \"id\": 1,\n            \"name\": \"pa_moneda\",\n            \"description\": \"Monedas\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"pa_estado_general\",\n            \"description\": \"Estados Generales para tablas\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"pa_tipo_contribuyente\",\n            \"description\": \"Tipos de Contribuyentes para empresas\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 4,\n            \"name\": \"pa_tipo_industria\",\n            \"description\": \"Tipos de Industrias para empresas\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 5,\n            \"name\": \"pa_tipo_empresa\",\n            \"description\": \"Tipos de Empresas\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 6,\n            \"name\": \"pa_tipo_bodega\",\n            \"description\": \"Tipos de Bodegas\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 7,\n            \"name\": \"pa_estado_periodo\",\n            \"description\": \"Estado de periodos contables\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 8,\n            \"name\": \"pa_tipo_corte\",\n            \"description\": \"Tipo de cortes contables\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 9,\n            \"name\": \"pa_estado_corte\",\n            \"description\": \"Estado de cortes contables\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 10,\n            \"name\": \"pa_naturaleza_cuenta\",\n            \"description\": \"Naturaleza de cuenta\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 11,\n            \"name\": \"pa_cargo\",\n            \"description\": \"Cargo u ocupación empleados\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 12,\n            \"name\": \"pa_tipo_identificacion\",\n            \"description\": \"Tipos de identificación\",\n            \"status\": \"V\"\n        },\n        {\n            \"id\": 13,\n            \"name\": \"pa_genero\",\n            \"description\": \"Género\",\n            \"status\": \"V\"\n        }\n    ]\n}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ca_catalogo",
+          "item": [
+            {
+              "name": "Get catalogById: /api/v1/catalogs/60",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8030/api/v1/catalogs/60",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8030",
+                  "path": [
+                    "api",
+                    "v1",
+                    "catalogs",
+                    "60"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Post create: /api/v1/catalogs",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "fiza",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"dataIn\": {\r\n        \"tableId\": 1,\r\n        \"code\": \"5\",\r\n        \"value\": \"EUR\",\r\n        \"description\": \"MONEDA EURO SUIZO\"\r\n    }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8030/api/v1/catalogs",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8030",
+                  "path": [
+                    "api",
+                    "v1",
+                    "catalogs"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Patch update: /api/v1/catalogs/64",
+              "request": {
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "x-user",
+                    "value": "fiza",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"dataIn\": {\r\n        \"value\": \"PEN\",\r\n        \"description\": \"MONEDA SOLES\"\r\n    }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8034/api/v1/catalogs/64",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8034",
+                  "path": [
+                    "api",
+                    "v1",
+                    "catalogs",
+                    "64"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get catalogByTable: /api/v1/catalogs/filters?",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:8030/api/v1/catalogs/filters?name=pa_moneda",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8030",
+                  "path": [
+                    "api",
+                    "v1",
+                    "catalogs",
+                    "filters"
+                  ],
+                  "query": [
+                    {
+                      "key": "name",
+                      "value": "pa_moneda"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
