@@ -1,4 +1,126 @@
-Select top 100*
-  from vc_detalle_pago
-where tpa_id = 6
-order by 1 
+
+/*
+create table #RETENCIONES
+(codigo         int identity(1,1),
+ doc_id         int null,
+ doc_factura    varchar(20) not null,
+ valor2         money not null,
+ fecha_retencion datetime null,
+ cl_id          int null,
+ au_id          int null,
+ cr_id          int null
+)
+
+INSERT INTO #RETENCIONES (DOC_FACTURA, VALOR2, FECHA_RETENCION) VALUES(47725,72.24,'2026-01-07')
+*/
+
+declare @doc_id           int,
+        @au_id            int,
+        @cr_id            int,
+        @cl_id            int,
+        @am_id            int,
+        @fecha            datetime,
+        @valor2           money,
+        @i_tipo_pago      int,
+        @i_num_ch         varchar(20),
+        @i_banco_id       int,
+        @es_ch            int
+
+select @fecha = getdate(),
+       @valor2 = 72.24,
+       @i_tipo_pago = 8,
+       @i_num_ch = '000000951',
+       @i_banco_id = null,
+       @es_ch = 2,
+       @i_fecha_efectiva = '2026-01-07'
+
+select @doc_id = doc_id,
+       @cl_id  = cl_id
+  from vc_documento
+ where doc_factura = '47725'
+
+select *
+  from vc_documento
+ where doc_id = @doc_id
+
+select @au_id = au_id
+  from vc_autorizacion
+ where doc_id = @doc_id
+
+select @cr_id = cr_id
+  from vc_credito
+ where au_id = @au_id
+
+select *
+  from vc_credito
+ where cr_id = @cr_id
+ 
+select *
+  from vc_amortizacion
+ where cr_id = @cr_id
+
+select top 1 @am_id = am_id
+  from vc_amortizacion
+ where cr_id = @cr_id
+
+if exists (select * 
+             from vc_pago 
+            where cl_id = @cl_id 
+              and TR_CODIGO = 102
+              and CONVERT(varchar(10), pa_fecha_pago, 23) = CONVERT(varchar(10), @fecha, 23))
+begin
+   select @pa_id = PA_ID
+     from vc_pago 
+    where cl_id = @cl_id
+      and TR_CODIGO = 102
+      and CONVERT(varchar(10), pa_fecha_pago, 23) = CONVERT(varchar(10), @fecha, 23)
+end
+else
+begin
+   EXEC @pa_id = [dbo].[spVcPagoInsert]
+      @DOC_ID_1 = NULL,
+      @TR_CODIGO_1 = 102,
+      @CL_ID_2 = @cl_id,
+      @PA_CANTIDAD_3 = 0,
+      @PA_FECHA_PAGO_4 = NULL,
+      @PA_DESCRIPCION_5 = 'PAGO FACTURA/NOTA VENTA',
+      @IDUSUARIO = 75,
+      @PA_SU_ID = 1
+end
+
+if exists (select 1
+             from vc_pago p, vc_detalle_pago dp
+            where dp.pa_id = p.pa_id
+              and tpa_id = @i_tipo_pago
+              and dpdoc_id = @i_num_ch
+              and ((dp.ent_id = @i_banco_id) or (@i_banco_id is null))
+              and p.cl_id = @cl_id
+              and convert(varchar(10), dp.DP_FECHA_COBRO, 23) = @fecha)
+begin
+   return 0
+end
+else
+begin
+   EXEC @dpa_id = [dbo].[spVcDetallePagoInsert]
+      @PA_ID_1 = @pa_id,
+      @TPA_ID_2 = @i_tipo_pago,
+      @EC_ID_3 = @es_ch,
+      @ENT_ID_4 = @i_banco_id,
+      @DPDOC_ID_5 = @i_num_ch,
+      @DP_INFDOCUMENTO_6 = 'PAGO MIGRADO',
+      @DP_FECHA_COBRO_7 = @i_fecha_efectiva,
+      @DP_VALOR1_8 = NULL,
+      @DP_VALOR2_9 = @i_valor_2,
+      @PA_NUMERO_COMPROBANTE_10 = 0,
+      @DP_FECHA_11 = @fecha,
+      @IDUSUARIO = 75,
+      @DP_FACTURA = NULL
+end
+
+   EXEC @ab_id = [dbo].[spVcPagoAbonoCredito]
+      @valor = @valor2,
+      @idCliente = @cl_id,
+      @FechaProceso = @fecha,
+      @Usuario = 75,
+      @dp_id = @dpa_id,
+      @i_am_id = am_id
