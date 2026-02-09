@@ -15,9 +15,15 @@ select @au_id = au_id
  where doc_id = @doc_id
 
 select @cr_id = cr_id
-  from vc_autorizacion
- where doc_id = @doc_id
+  from vc_credito
+ where au_id = @au_id
 
 select *
   from vc_credito
- where au_id = @au_id
+ where cr_id = @cr_id
+
+select *
+  from vc_amortizacion
+ where cr_id = @cr_id
+
+
