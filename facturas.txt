@@ -1,265 +1,107 @@
-update vc_documento set doc_factura = '47723', doc_fecha = '2026-01-07' where RIGHT(doc_cod, 5) = '96199'
-update vc_documento set doc_factura = '47725', doc_fecha = '2026-01-07' where RIGHT(doc_cod, 5) = '96203'
-update vc_documento set doc_factura = '47726', doc_fecha = '2026-01-08' where RIGHT(doc_cod, 5) = '96205'
-update vc_documento set doc_factura = '47727', doc_fecha = '2026-01-08' where RIGHT(doc_cod, 5) = '96206'
-update vc_documento set doc_factura = '47728', doc_fecha = '2026-01-08' where RIGHT(doc_cod, 5) = '96208'
-update vc_documento set doc_factura = '47729', doc_fecha = '2026-01-08' where RIGHT(doc_cod, 5) = '96209'
-update vc_documento set doc_factura = '47730', doc_fecha = '2026-01-08' where RIGHT(doc_cod, 5) = '96210'
-update vc_documento set doc_factura = '47732', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96213'
-update vc_documento set doc_factura = '47737', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96217'
-update vc_documento set doc_factura = '47738', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96219'
-update vc_documento set doc_factura = '47739', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96220'
-update vc_documento set doc_factura = '47740', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96221'
-update vc_documento set doc_factura = '47741', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96229'
-update vc_documento set doc_factura = '47742', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96230'
-update vc_documento set doc_factura = '47743', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96231'
-update vc_documento set doc_factura = '47744', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96232'
-update vc_documento set doc_factura = '47745', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96233'
-update vc_documento set doc_factura = '47746', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96234'
-update vc_documento set doc_factura = '47747', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96236'
-update vc_documento set doc_factura = '47748', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96237'
-update vc_documento set doc_factura = '47749', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96238'
-update vc_documento set doc_factura = '47750', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96240'
-update vc_documento set doc_factura = '47751', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96261'
-update vc_documento set doc_factura = '47752', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96264'
-update vc_documento set doc_factura = '47753', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96266'
-update vc_documento set doc_factura = '47755', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96271'
-update vc_documento set doc_factura = '47756', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96272'
-update vc_documento set doc_factura = '47757', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96259'
-update vc_documento set doc_factura = '47758', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96274'
-update vc_documento set doc_factura = '47760', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96276'
-update vc_documento set doc_factura = '47761', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96282'
-update vc_documento set doc_factura = '47762', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96278'
-update vc_documento set doc_factura = '47763', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96280'
-update vc_documento set doc_factura = '47764', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96285'
-update vc_documento set doc_factura = '47765', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96286'
-update vc_documento set doc_factura = '47766', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96287'
-update vc_documento set doc_factura = '47767', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96288'
-update vc_documento set doc_factura = '47768', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96289'
-update vc_documento set doc_factura = '47769', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96290'
-update vc_documento set doc_factura = '47770', doc_fecha = '2026-01-09' where RIGHT(doc_cod, 5) = '96291'
-update vc_documento set doc_factura = '47771', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96292'
-update vc_documento set doc_factura = '47772', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96293'
-update vc_documento set doc_factura = '47773', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96297'
-update vc_documento set doc_factura = '47774', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96298'
-update vc_documento set doc_factura = '47775', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96312'
-update vc_documento set doc_factura = '47776', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96241'
-update vc_documento set doc_factura = '47777', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96331'
-update vc_documento set doc_factura = '47778', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96260'
-update vc_documento set doc_factura = '47779', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96342'
-update vc_documento set doc_factura = '47780', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96245'
-update vc_documento set doc_factura = '47781', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96344'
-update vc_documento set doc_factura = '47782', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96345'
-update vc_documento set doc_factura = '47783', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96347'
-update vc_documento set doc_factura = '47784', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96348'
-update vc_documento set doc_factura = '47786', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96349'
-update vc_documento set doc_factura = '47787', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96350'
-update vc_documento set doc_factura = '47788', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96283'
-update vc_documento set doc_factura = '47790', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96351'
-update vc_documento set doc_factura = '47792', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96382'
-update vc_documento set doc_factura = '47793', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96258'
-update vc_documento set doc_factura = '47794', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96283'
-update vc_documento set doc_factura = '47795', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96257'
-update vc_documento set doc_factura = '47796', doc_fecha = '2026-01-12' where RIGHT(doc_cod, 5) = '96384'
-update vc_documento set doc_factura = '47797', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96253'
-update vc_documento set doc_factura = '47798', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96385'
-update vc_documento set doc_factura = '47800', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96386'
-update vc_documento set doc_factura = '47801', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96389'
-update vc_documento set doc_factura = '47802', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96393'
-update vc_documento set doc_factura = '47803', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96394'
-update vc_documento set doc_factura = '47804', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96412'
-update vc_documento set doc_factura = '47805', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96413'
-update vc_documento set doc_factura = '47806', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96414'
-update vc_documento set doc_factura = '47807', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96415'
-update vc_documento set doc_factura = '47808', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96417'
-update vc_documento set doc_factura = '47809', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96418'
-update vc_documento set doc_factura = '47810', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96420'
-update vc_documento set doc_factura = '47811', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96421'
-update vc_documento set doc_factura = '47812', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96422'
-update vc_documento set doc_factura = '47813', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96423'
-update vc_documento set doc_factura = '47814', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96246'
-update vc_documento set doc_factura = '47815', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96424'
-update vc_documento set doc_factura = '47816', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96244'
-update vc_documento set doc_factura = '47817', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96429'
-update vc_documento set doc_factura = '47818', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96430'
-update vc_documento set doc_factura = '47819', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96431'
-update vc_documento set doc_factura = '47820', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96243'
-update vc_documento set doc_factura = '47821', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96433'
-update vc_documento set doc_factura = '47822', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96436'
-update vc_documento set doc_factura = '47823', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96438'
-update vc_documento set doc_factura = '47824', doc_fecha = '2026-01-13' where RIGHT(doc_cod, 5) = '96242'
-update vc_documento set doc_factura = '47825', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96440'
-update vc_documento set doc_factura = '47826', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96457'
-update vc_documento set doc_factura = '47827', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96458'
-update vc_documento set doc_factura = '47828', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96459'
-update vc_documento set doc_factura = '47829', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96460'
-update vc_documento set doc_factura = '47830', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96461'
-update vc_documento set doc_factura = '47831', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96462'
-update vc_documento set doc_factura = '47832', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96314'
-update vc_documento set doc_factura = '47833', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96316'
-update vc_documento set doc_factura = '47834', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96317'
-update vc_documento set doc_factura = '47835', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96318'
-update vc_documento set doc_factura = '47836', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96319'
-update vc_documento set doc_factura = '47837', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96320'
-update vc_documento set doc_factura = '47838', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96321'
-update vc_documento set doc_factura = '47839', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96322'
-update vc_documento set doc_factura = '47840', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96323'
-update vc_documento set doc_factura = '47841', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96324'
-update vc_documento set doc_factura = '47842', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96327'
-update vc_documento set doc_factura = '47843', doc_fecha = '2026-01-14' where RIGHT(doc_cod, 5) = '96329'
-update vc_documento set doc_factura = '47844', doc_fecha = '2026-01-15' where RIGHT(doc_cod, 5) = '96330'
-update vc_documento set doc_factura = '47845', doc_fecha = '2026-01-15' where RIGHT(doc_cod, 5) = '96333'
-update vc_documento set doc_factura = '47846', doc_fecha = '2026-01-15' where RIGHT(doc_cod, 5) = '96334'
-update vc_documento set doc_factura = '47847', doc_fecha = '2026-01-15' where RIGHT(doc_cod, 5) = '96335'
-update vc_documento set doc_factura = '47848', doc_fecha = '2026-01-15' where RIGHT(doc_cod, 5) = '96337'
-update vc_documento set doc_factura = '47849', doc_fecha = '2026-01-15' where RIGHT(doc_cod, 5) = '96338'
-update vc_documento set doc_factura = '47850', doc_fecha = '2026-01-15' where RIGHT(doc_cod, 5) = '96339'
-update vc_documento set doc_factura = '47851', doc_fecha = '2026-01-15' where RIGHT(doc_cod, 5) = '96340'
-update vc_documento set doc_factura = '47852', doc_fecha = '2026-01-15' where RIGHT(doc_cod, 5) = '96341'
-update vc_documento set doc_factura = '47853', doc_fecha = '2026-01-15' where RIGHT(doc_cod, 5) = '96281'
-update vc_documento set doc_factura = '47856', doc_fecha = '2026-01-16' where RIGHT(doc_cod, 5) = '96395'
-update vc_documento set doc_factura = '47857', doc_fecha = '2026-01-16' where RIGHT(doc_cod, 5) = '96396'
-update vc_documento set doc_factura = '47858', doc_fecha = '2026-01-16' where RIGHT(doc_cod, 5) = '96400'
-update vc_documento set doc_factura = '47859', doc_fecha = '2026-01-16' where RIGHT(doc_cod, 5) = '96401'
-update vc_documento set doc_factura = '47860', doc_fecha = '2026-01-16' where RIGHT(doc_cod, 5) = '96403'
-update vc_documento set doc_factura = '47861', doc_fecha = '2026-01-16' where RIGHT(doc_cod, 5) = '96404'
-update vc_documento set doc_factura = '47862', doc_fecha = '2026-01-16' where RIGHT(doc_cod, 5) = '96405'
-update vc_documento set doc_factura = '47863', doc_fecha = '2026-01-16' where RIGHT(doc_cod, 5) = '96407'
-update vc_documento set doc_factura = '47864', doc_fecha = '2026-01-16' where RIGHT(doc_cod, 5) = '96446'
-update vc_documento set doc_factura = '47865', doc_fecha = '2026-01-16' where RIGHT(doc_cod, 5) = '96447'
-update vc_documento set doc_factura = '47866', doc_fecha = '2026-01-16' where RIGHT(doc_cod, 5) = '96448'
-update vc_documento set doc_factura = '47867', doc_fecha = '2026-01-16' where RIGHT(doc_cod, 5) = '96449'
-update vc_documento set doc_factura = '47868', doc_fecha = '2026-01-16' where RIGHT(doc_cod, 5) = '96451'
-update vc_documento set doc_factura = '47869', doc_fecha = '2026-01-16' where RIGHT(doc_cod, 5) = '96452'
-update vc_documento set doc_factura = '47870', doc_fecha = '2026-01-16' where RIGHT(doc_cod, 5) = '96453'
-update vc_documento set doc_factura = '47871', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96455'
-update vc_documento set doc_factura = '47873', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96472'
-update vc_documento set doc_factura = '47874', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96474'
-update vc_documento set doc_factura = '47876', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96476'
-update vc_documento set doc_factura = '47877', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96477'
-update vc_documento set doc_factura = '47878', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96482'
-update vc_documento set doc_factura = '47879', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96484'
-update vc_documento set doc_factura = '47880', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96487'
-update vc_documento set doc_factura = '47881', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96490'
-update vc_documento set doc_factura = '47882', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96491'
-update vc_documento set doc_factura = '47883', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96493'
-update vc_documento set doc_factura = '47884', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96498'
-update vc_documento set doc_factura = '47886', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96506'
-update vc_documento set doc_factura = '47887', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96507'
-update vc_documento set doc_factura = '47888', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96512'
-update vc_documento set doc_factura = '47890', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96520'
-update vc_documento set doc_factura = '47891', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96522'
-update vc_documento set doc_factura = '47892', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96523'
-update vc_documento set doc_factura = '47893', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96534'
-update vc_documento set doc_factura = '47894', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96536'
-update vc_documento set doc_factura = '47895', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96541'
-update vc_documento set doc_factura = '47896', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96543'
-update vc_documento set doc_factura = '47897', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96544'
-update vc_documento set doc_factura = '47898', doc_fecha = '2026-01-19' where RIGHT(doc_cod, 5) = '96546'
-update vc_documento set doc_factura = '47900', doc_fecha = '2026-01-20' where RIGHT(doc_cod, 5) = '96549'
-update vc_documento set doc_factura = '47901', doc_fecha = '2026-01-20' where RIGHT(doc_cod, 5) = '96551'
-update vc_documento set doc_factura = '47903', doc_fecha = '2026-01-20' where RIGHT(doc_cod, 5) = '96558'
-update vc_documento set doc_factura = '47904', doc_fecha = '2026-01-20' where RIGHT(doc_cod, 5) = '96560'
-update vc_documento set doc_factura = '47905', doc_fecha = '2026-01-20' where RIGHT(doc_cod, 5) = '96586'
-update vc_documento set doc_factura = '47908', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96587'
-update vc_documento set doc_factura = '47910', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96588'
-update vc_documento set doc_factura = '47911', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96589'
-update vc_documento set doc_factura = '47912', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96590'
-update vc_documento set doc_factura = '47913', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96591'
-update vc_documento set doc_factura = '47914', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96592'
-update vc_documento set doc_factura = '47915', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96593'
-update vc_documento set doc_factura = '47916', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96594'
-update vc_documento set doc_factura = '47917', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96492'
-update vc_documento set doc_factura = '47918', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96402'
-update vc_documento set doc_factura = '47919', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96274'
-update vc_documento set doc_factura = '47921', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96494'
-update vc_documento set doc_factura = '47922', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96495'
-update vc_documento set doc_factura = '47923', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96496'
-update vc_documento set doc_factura = '47924', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96497'
-update vc_documento set doc_factura = '47925', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96499'
-update vc_documento set doc_factura = '47926', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96500'
-update vc_documento set doc_factura = '47927', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96501'
-update vc_documento set doc_factura = '47928', doc_fecha = '2026-01-21' where RIGHT(doc_cod, 5) = '96502'
-update vc_documento set doc_factura = '47929', doc_fecha = '2026-01-22' where RIGHT(doc_cod, 5) = '96503'
-update vc_documento set doc_factura = '47930', doc_fecha = '2026-01-22' where RIGHT(doc_cod, 5) = '96504'
-update vc_documento set doc_factura = '47932', doc_fecha = '2026-01-22' where RIGHT(doc_cod, 5) = '96505'
-update vc_documento set doc_factura = '47933', doc_fecha = '2026-01-22' where RIGHT(doc_cod, 5) = '96508'
-update vc_documento set doc_factura = '47934', doc_fecha = '2026-01-22' where RIGHT(doc_cod, 5) = '96509'
-update vc_documento set doc_factura = '47935', doc_fecha = '2026-01-22' where RIGHT(doc_cod, 5) = '96510'
-update vc_documento set doc_factura = '47936', doc_fecha = '2026-01-22' where RIGHT(doc_cod, 5) = '96511'
-update vc_documento set doc_factura = '47937', doc_fecha = '2026-01-22' where RIGHT(doc_cod, 5) = '96513'
-update vc_documento set doc_factura = '47938', doc_fecha = '2026-01-22' where RIGHT(doc_cod, 5) = '96514'
-update vc_documento set doc_factura = '47939', doc_fecha = '2026-01-22' where RIGHT(doc_cod, 5) = '96515'
-update vc_documento set doc_factura = '47941', doc_fecha = '2026-01-22' where RIGHT(doc_cod, 5) = '96516'
-update vc_documento set doc_factura = '47942', doc_fecha = '2026-01-22' where RIGHT(doc_cod, 5) = '96517'
-update vc_documento set doc_factura = '47943', doc_fecha = '2026-01-22' where RIGHT(doc_cod, 5) = '96518'
-update vc_documento set doc_factura = '47945', doc_fecha = '2026-01-22' where RIGHT(doc_cod, 5) = '96262'
-update vc_documento set doc_factura = '47946', doc_fecha = '2026-01-22' where RIGHT(doc_cod, 5) = '96521'
-update vc_documento set doc_factura = '47947', doc_fecha = '2026-01-23' where RIGHT(doc_cod, 5) = '96524'
-update vc_documento set doc_factura = '47948', doc_fecha = '2026-01-23' where RIGHT(doc_cod, 5) = '96525'
-update vc_documento set doc_factura = '47949', doc_fecha = '2026-01-23' where RIGHT(doc_cod, 5) = '96527'
-update vc_documento set doc_factura = '47950', doc_fecha = '2026-01-23' where RIGHT(doc_cod, 5) = '96528'
-update vc_documento set doc_factura = '47951', doc_fecha = '2026-01-23' where RIGHT(doc_cod, 5) = '96529'
-update vc_documento set doc_factura = '47952', doc_fecha = '2026-01-23' where RIGHT(doc_cod, 5) = '96530'
-update vc_documento set doc_factura = '47953', doc_fecha = '2026-01-23' where RIGHT(doc_cod, 5) = '96531'
-update vc_documento set doc_factura = '47954', doc_fecha = '2026-01-23' where RIGHT(doc_cod, 5) = '96532'
-update vc_documento set doc_factura = '47955', doc_fecha = '2026-01-23' where RIGHT(doc_cod, 5) = '96533'
-update vc_documento set doc_factura = '47956', doc_fecha = '2026-01-23' where RIGHT(doc_cod, 5) = '96535'
-update vc_documento set doc_factura = '47957', doc_fecha = '2026-01-23' where RIGHT(doc_cod, 5) = '96537'
-update vc_documento set doc_factura = '47958', doc_fecha = '2026-01-23' where RIGHT(doc_cod, 5) = '96539'
-update vc_documento set doc_factura = '47959', doc_fecha = '2026-01-23' where RIGHT(doc_cod, 5) = '96540'
-update vc_documento set doc_factura = '47960', doc_fecha = '2026-01-23' where RIGHT(doc_cod, 5) = '96542'
-update vc_documento set doc_factura = '47961', doc_fecha = '2026-01-23' where RIGHT(doc_cod, 5) = '96545'
-update vc_documento set doc_factura = '47962', doc_fecha = '2026-01-23' where RIGHT(doc_cod, 5) = '96547'
-update vc_documento set doc_factura = '47963', doc_fecha = '2026-01-26' where RIGHT(doc_cod, 5) = '96548'
-update vc_documento set doc_factura = '47964', doc_fecha = '2026-01-26' where RIGHT(doc_cod, 5) = '96550'
-update vc_documento set doc_factura = '47965', doc_fecha = '2026-01-26' where RIGHT(doc_cod, 5) = '96552'
-update vc_documento set doc_factura = '47966', doc_fecha = '2026-01-26' where RIGHT(doc_cod, 5) = '96553'
-update vc_documento set doc_factura = '47968', doc_fecha = '2026-01-26' where RIGHT(doc_cod, 5) = '96554'
-update vc_documento set doc_factura = '47969', doc_fecha = '2026-01-26' where RIGHT(doc_cod, 5) = '96555'
-update vc_documento set doc_factura = '47970', doc_fecha = '2026-01-26' where RIGHT(doc_cod, 5) = '96556'
-update vc_documento set doc_factura = '47971', doc_fecha = '2026-01-26' where RIGHT(doc_cod, 5) = '96557'
-update vc_documento set doc_factura = '47972', doc_fecha = '2026-01-26' where RIGHT(doc_cod, 5) = '96559'
-update vc_documento set doc_factura = '47973', doc_fecha = '2026-01-26' where RIGHT(doc_cod, 5) = '96561'
-update vc_documento set doc_factura = '47974', doc_fecha = '2026-01-26' where RIGHT(doc_cod, 5) = '96562'
-update vc_documento set doc_factura = '47975', doc_fecha = '2026-01-26' where RIGHT(doc_cod, 5) = '96563'
-update vc_documento set doc_factura = '47976', doc_fecha = '2026-01-26' where RIGHT(doc_cod, 5) = '96564'
-update vc_documento set doc_factura = '47977', doc_fecha = '2026-01-26' where RIGHT(doc_cod, 5) = '96565'
-update vc_documento set doc_factura = '47978', doc_fecha = '2026-01-26' where RIGHT(doc_cod, 5) = '96566'
-update vc_documento set doc_factura = '47979', doc_fecha = '2026-01-27' where RIGHT(doc_cod, 5) = '96567'
-update vc_documento set doc_factura = '47980', doc_fecha = '2026-01-27' where RIGHT(doc_cod, 5) = '96568'
-update vc_documento set doc_factura = '47982', doc_fecha = '2026-01-27' where RIGHT(doc_cod, 5) = '96569'
-update vc_documento set doc_factura = '47983', doc_fecha = '2026-01-27' where RIGHT(doc_cod, 5) = '96570'
-update vc_documento set doc_factura = '47984', doc_fecha = '2026-01-27' where RIGHT(doc_cod, 5) = '96571'
-update vc_documento set doc_factura = '47986', doc_fecha = '2026-01-27' where RIGHT(doc_cod, 5) = '96572'
-update vc_documento set doc_factura = '47987', doc_fecha = '2026-01-27' where RIGHT(doc_cod, 5) = '96573'
-update vc_documento set doc_factura = '47988', doc_fecha = '2026-01-27' where RIGHT(doc_cod, 5) = '96574'
-update vc_documento set doc_factura = '47989', doc_fecha = '2026-01-27' where RIGHT(doc_cod, 5) = '96575'
-update vc_documento set doc_factura = '47990', doc_fecha = '2026-01-27' where RIGHT(doc_cod, 5) = '96576'
-update vc_documento set doc_factura = '47991', doc_fecha = '2026-01-27' where RIGHT(doc_cod, 5) = '96577'
-update vc_documento set doc_factura = '47992', doc_fecha = '2026-01-27' where RIGHT(doc_cod, 5) = '96578'
-update vc_documento set doc_factura = '47993', doc_fecha = '2026-01-27' where RIGHT(doc_cod, 5) = '96579'
-update vc_documento set doc_factura = '47994', doc_fecha = '2026-01-27' where RIGHT(doc_cod, 5) = '96580'
-update vc_documento set doc_factura = '47995', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96581'
-update vc_documento set doc_factura = '47996', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96582'
-update vc_documento set doc_factura = '47997', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96583'
-update vc_documento set doc_factura = '47998', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96584'
-update vc_documento set doc_factura = '47999', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96585'
-update vc_documento set doc_factura = '48000', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96368'
-update vc_documento set doc_factura = '48001', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96368'
-update vc_documento set doc_factura = '48002', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96365'
-update vc_documento set doc_factura = '48003', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96364'
-update vc_documento set doc_factura = '48004', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96363'
-update vc_documento set doc_factura = '48005', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96361'
-update vc_documento set doc_factura = '48006', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96360'
-update vc_documento set doc_factura = '48007', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96359'
-update vc_documento set doc_factura = '48008', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96358'
-update vc_documento set doc_factura = '48009', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96357'
-update vc_documento set doc_factura = '48010', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96226'
-update vc_documento set doc_factura = '48011', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96224'
-update vc_documento set doc_factura = '48012', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96223'
-update vc_documento set doc_factura = '48013', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96218'
-update vc_documento set doc_factura = '48014', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96133'
-update vc_documento set doc_factura = '48015', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96137'
-update vc_documento set doc_factura = '48016', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96142'
-update vc_documento set doc_factura = '48017', doc_fecha = '2026-01-28' where RIGHT(doc_cod, 5) = '96139'
+declare @i_fecha_efectiva varchar(10),   --'yyy-MM-dd'
+		@i_num_ch         varchar(20),
+		@i_banco_id       int,
+		@i_documento      varchar(20),
+		@i_tipo_pago      int,
+		@i_valor_2        money
+
+select @i_fecha_efectiva = getdate(),
+	   @i_num_ch = '398',
+	   @i_banco_id = 1,
+	   @i_documento = '00100110096199',
+	   @i_tipo_pago = 1,
+	   @i_valor_2 = 1600.02
+
+declare @doc_id     int,
+		@cl_id      int,
+		@es_ch      int,
+		@fecha      datetime,
+        @pa_id      int,
+        @dpa_id     int
+
+select @es_ch = 3,
+       @fecha = getdate()
+
+select @doc_id = doc_id,
+       @cl_id = cl_id
+  from VC_DOCUMENTO
+ where DOC_COD = @i_documento   --RV codigo de documento
+
+select @fecha,
+       @doc_id,
+       @cl_id, 
+	   @es_ch,
+	   @i_tipo_pago,
+	   @i_banco_id,
+	   @i_num_ch
+
+if exists (select * 
+             from vc_pago 
+			where cl_id = @cl_id 
+			  and TR_CODIGO = 102
+			  and CONVERT(varchar(10), pa_fecha_pago, 23) = CONVERT(varchar(10), @fecha, 23))
+begin
+   select @pa_id = PA_ID
+     from vc_pago 
+	where cl_id = @cl_id
+	  and TR_CODIGO = 102
+	  and CONVERT(varchar(10), pa_fecha_pago, 23) = CONVERT(varchar(10), @fecha, 23)
+end
+else
+begin
+   EXEC @pa_id = [dbo].[spVcPagoInsert]
+		@DOC_ID_1 = NULL,
+		@TR_CODIGO_1 = 102,
+		@CL_ID_2 = @cl_id,
+		@PA_CANTIDAD_3 = 0,
+		@PA_FECHA_PAGO_4 = NULL,
+		@PA_DESCRIPCION_5 = 'PAGO FACTURA/NOTA VENTA',
+		@IDUSUARIO = 75,
+		@PA_SU_ID = 1
+end
+
+select @pa_id
+
+if exists (select 1
+             from vc_pago p, vc_detalle_pago dp
+            where dp.pa_id = p.pa_id			
+			and tpa_id = @i_tipo_pago
+			and dpdoc_id = @i_num_ch
+			and ((dp.ent_id = @i_banco_id) or (@i_banco_id is null))
+			and p.cl_id = @cl_id
+			and convert(varchar(10), dp.DP_FECHA_COBRO, 23) = @i_fecha_efectiva)
+begin
+   return 0
+end
+else
+begin
+   EXEC @dpa_id = [dbo].[spVcDetallePagoInsert]
+		@PA_ID_1 = @pa_id,
+		@TPA_ID_2 = @i_tipo_pago,
+		@EC_ID_3 = @es_ch,
+		@ENT_ID_4 = @i_banco_id,
+		@DPDOC_ID_5 = @i_num_ch,
+		@DP_INFDOCUMENTO_6 = 'PAGO MIGRADO',
+		@DP_FECHA_COBRO_7 = @i_fecha_efectiva,
+		@DP_VALOR1_8 = NULL,
+		@DP_VALOR2_9 = @i_valor_2,
+		@PA_NUMERO_COMPROBANTE_10 = 0,
+		@DP_FECHA_11 = @fecha,
+		@IDUSUARIO = 75,
+		@DP_FACTURA = NULL
+end
+
+vtAbonos = DetallePagoManager.PagoCreditoAbono(vfdpag.DetallePago[0].DP_VALOR2, codigo, vlFechaProceso, vlUsuario, vfdpag.DetallePago[0].DP_ID, 0);
+                        vtPagado = 0;
+
+ select top 103 *
+   from vc_pago where TR_CODIGO = 102 order by 1 desc
+
+select *--convert(varchar(10), DP_FECHA_COBRO, 23)
+  from vc_detalle_pago
+where pa_id = 164489
+  and tpa_id= 1--@tp_ch
+
+
+  select *
+    from VC_TIPO_PAGO
