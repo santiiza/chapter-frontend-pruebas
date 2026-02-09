@@ -1,0 +1,4 @@
+Select top 100*
+  from vc_detalle_pago
+where tpa_id = 6
+order by 1 
