@@ -24,7 +24,10 @@ declare @doc_id           int,
         @i_tipo_pago      int,
         @i_num_ch         varchar(20),
         @i_banco_id       int,
-        @es_ch            int
+        @es_ch            int,
+        @i_fecha_efectiva datetime,
+        @pa_id            int,
+        @dpa_id           int
 
 select @fecha = getdate(),
        @valor2 = 72.24,
@@ -110,7 +113,7 @@ begin
       @DP_INFDOCUMENTO_6 = 'PAGO MIGRADO',
       @DP_FECHA_COBRO_7 = @i_fecha_efectiva,
       @DP_VALOR1_8 = NULL,
-      @DP_VALOR2_9 = @i_valor_2,
+      @DP_VALOR2_9 = @valor2,
       @PA_NUMERO_COMPROBANTE_10 = 0,
       @DP_FECHA_11 = @fecha,
       @IDUSUARIO = 75,
